@@ -4,5 +4,9 @@ module.exports = {
     resources: [
         { from: 'src/resources/', to: 'dist/resources/' }
     ],
-    sourceDir: './src'
+    sourceDir: './src',
+
+    lwcCompilerStylesheetConfig: {
+        customProperties: { allowDefinition: true }
+    }
 };
